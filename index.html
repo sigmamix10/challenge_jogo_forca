@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Forca</title> 
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>  
+    <header class="header">      
+      <img src="./images/Vector.svg" alt="logo alura">
+      <h1 class="titulo">Jogo da Forca</h1>
+    </header>
+    <div class="letras">Letras Erradas: <span class="num" id='erros'> 0 </span> de <span class="num" id='tentativas'></span></div>
+    <div class="area-jogo">
+      <img id='jogoImage' src="./images/0.png" alt="">
+      <p class="letras-palavra" id="palavraVerificada"></p>
+      <div class="teclas text-warning" id="keyboard"></div>
+      <button class=" botao btn btn-warning font-weight-bold " onClick="reset()">Reiniciar</button>
+    </div>
+  
+
+  <footer class="footer">
+    <span id="social"> 2022 &copy; Desenvolvido por Rogério Alves</span>
+    <a href="https://github.com/sigmamix10"><img src="./images/icons8-github-48.png" alt="GitHub"></a>
+    <a href="https://www.linkedin.com/in/rogerioalvez/"><img src="./images/icons8-linkedin-48.png" alt="linkedin"></a>
+  </footer>
+  <script src='./js/jogo.js'></script>
+</body>
+
+</html>
