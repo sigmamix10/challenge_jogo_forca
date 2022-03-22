@@ -91,6 +91,14 @@ function reset() {
   criarBotoes();
 }
 
+var campo = document.querySelector("#InserirPalavra")
+var but = document.querySelector("#inserir")
+
+but.onclick = function(){
+  palavras.push(campo.value);
+  campo.value = ''
+}
+
 document.getElementById('tentativas').innerHTML = tentativas;
 
 sorteiaPalavra();

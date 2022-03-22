@@ -52,7 +52,7 @@ body{
 }
 
 .teclas{
-  width: 50%;
+  width: 70%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -84,9 +84,20 @@ body{
 
 .footer{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
   color: #fff;
   font-weight: 600;
+  padding: 3px 5px;
 }
+
+.inserir-palavra{
+  width: 50%;
+  height: 35px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
