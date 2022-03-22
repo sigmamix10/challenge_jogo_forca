@@ -16,19 +16,24 @@
       <img src="./images/Vector.svg" alt="logo alura">
       <h1 class="titulo">Jogo da Forca</h1>
     </header>
-    <div class="letras">Letras Erradas: <span class="num" id='erros'> 0 </span> de <span class="num" id='tentativas'></span></div>
+    <div class="letras">Letras Erradas: <span class="num" id='erros'> 0 </span> de <span class="num" id='tentativas'> </span></div>
     <div class="area-jogo">
       <img id='jogoImage' src="./images/0.png" alt="">
       <p class="letras-palavra" id="palavraVerificada"></p>
       <div class="teclas text-warning" id="keyboard"></div>
       <button class=" botao btn btn-warning font-weight-bold " onClick="reset()">Reiniciar</button>
+      <p>---------------</p>
+      <input class="inserir-palavra" type="text" placeholder="Insira uma palavra" id="InserirPalavra">
+      <button class="btn" onclick="inserir()" id="inserir">Enviar</button>
     </div>
   
 
   <footer class="footer">
-    <span id="social"> 2022 &copy; Desenvolvido por Rogério Alves</span>
-    <a href="https://github.com/sigmamix10"><img src="./images/icons8-github-48.png" alt="GitHub"></a>
-    <a href="https://www.linkedin.com/in/rogerioalvez/"><img src="./images/icons8-linkedin-48.png" alt="linkedin"></a>
+    <div class="copy"><span id="social"> 2022 &copy; Desenvolvido por Rogério Alves</span></div>    
+    <div class="icons-links">
+      <a href="https://github.com/sigmamix10"> <img src="./images/icons8-github-48.png" alt="GitHub" width="40px"></a>
+      <a href="https://www.linkedin.com/in/rogerioalvez/"><img src="./images/icons8-linkedin-48.png" alt="linkedin" width="40px"></a>
+    </div>
   </footer>
   <script src='./js/jogo.js'></script>
 </body>
